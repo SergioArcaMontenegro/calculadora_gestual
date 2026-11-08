@@ -42,6 +42,13 @@ El sistema procesa la entrada de vídeo mediante **MediaPipe Hands** y **OpenCV*
    uv run python src/gest-calc/main.py --cam 1
    ```
 
+   > **Nota de ejecución:** En mi caso concreto, debido a problemas/fallos al intentar lanzarlo mediante `uv run`, se optó por ejecutar la aplicación directamente con el intérprete de Python (tras activar el entorno virtual o llamando directamente al ejecutable de Python):
+   > ```bash
+   > # En Windows:
+   > .venv\Scripts\activate
+   > python src/gest-calc/main.py
+   > ```
+
 ### 2.2 En Linux (con Docker)
 
 1. **Construir la imagen**:
