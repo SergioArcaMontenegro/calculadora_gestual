@@ -113,3 +113,4 @@ El sistema incorpora dos modalidades intercambiables mediante la tecla `M`:
 | `Espacio` | Pausar / Reactivar la interacción gestual |
 | `C` / `c` | Activar / Desactivar feedback sonoro |
 | `Q` / `ESC` | Cerrar la aplicación |
+

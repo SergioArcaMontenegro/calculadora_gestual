@@ -97,3 +97,4 @@ class HandDetector:
 
         normalized_dist = pinch_px / max(hand_scale, 1.0)
         return pinch_px, normalized_dist, (cx, cy)
+

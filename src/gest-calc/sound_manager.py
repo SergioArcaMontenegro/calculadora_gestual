@@ -33,3 +33,4 @@ class SoundManager:
             self._winsound.Beep(freq, duration)
         except Exception:
             pass
+

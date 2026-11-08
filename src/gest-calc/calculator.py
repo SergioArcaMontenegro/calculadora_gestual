@@ -99,3 +99,4 @@ class CalculatorLogic:
             self.expression = "Error: Div/0"
         except Exception:
             self.expression = "Error"
+

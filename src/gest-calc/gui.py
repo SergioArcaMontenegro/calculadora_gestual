@@ -153,3 +153,4 @@ class CalculatorGUI:
                     cv2.FONT_HERSHEY_SIMPLEX, 0.65, (0, 255, 200) if not paused else (80, 100, 255), 2, cv2.LINE_AA)
         cv2.putText(img, hint_text, (status_bg_x, status_bg_y + 26),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.50, (200, 200, 200), 1, cv2.LINE_AA)
+
